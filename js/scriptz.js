@@ -11,7 +11,7 @@ $(document).ready(function(){
                 $("#whatwedo3").click(function(){
                     $("#imgs3").toggle();
                     $("#text3").toggle();
-                })
+                });
 
    
 }); 
