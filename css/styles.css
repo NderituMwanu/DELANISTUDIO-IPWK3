@@ -1,28 +1,3 @@
-
-*{
-    padding: 0;
-    margin: 0;
-}
-    
-h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    padding-right:0x;
-    padding-top: 50px;
-    
-}
-h1{
-    padding-bottom:500px;
-    position:inherit;
-}
-
-h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 130%;
-    text-align: center;
-    padding-top: 30px;
-}
-
 .homeimage{
     background-image: url("../IMAGES/backgrounds/h_img.jpg");
     color: white;
@@ -30,181 +5,97 @@ h4{
     background-repeat:no-repeat;
     text-align: center;
     margin-top: 0px;
-    height: 600px;
-    padding-top: 130px;
+    height: 120vh;
 
 }
 
-.homeimage h4{
-    font-family: sans-serif;
-    font-size: 45px;
-    line-height: 70px;
-}
-
-.homeimage h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:17px;
-    font-weight: lighter;
-}
 #logo{
-    background-position: bottom;
-    height: 70px;
+    padding-top: 140px;
+        
 }
 
-
-
-.containerf-fluid
-{
-    width:10px;
-    margin: 70px auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.container-fluid .objects{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin:10px;
-    display: inline-flex;
-   
-}
-
-.container-fluid{
-    text-align: center;
-    line-height: 30px;
-    align-items: center;
+#logo1{
+    padding-top:140px;
 }
 
 .services{
     background-image: url("../IMAGES/backgrounds/s_image.jpg");
-    margin-top: 70px;
     background-size: cover;
     color:white;
-    padding-top: 90px;
-    padding-bottom: 110px;
     text-align: center;
-    line-height: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 60vh;
+    padding-top: 90px;
 }
+
 
 .aboutustext{
     text-align: center;
-    color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 30px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
-
-p{
-    margin-top:31px;
+.hd1{
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
-.img2{
-    background: url("../IMAGES/backgrounds/c_img.jpg") no-repeat center center fixed;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center center;
-}
-
-#logo1{
-    padding-top: 200px;
-}
-
-.gallery{
-    margin:5px;
-    border:1px solid #ccc;
-    float:left;
-    width:390px;
-}
-
-.gallery img{
-    widows: 100%;
-    height:auto;
+.whatwedohere{
+    text-align: center;
 }
 
 .portfolio{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:35px;
+    font-size: 30px;
 }
 
-.objects>img:hover{
-    opacity: 0.4;
-}
-
-.header{
-    height:100vh;
-    width: initial;
-    background-position: bottom;
-    background-image: url("../IMAGES/backgrounds/c_image.jpg");
-    background-size:cover;
-    color: white; 
-    background-position: inherit;
-    justify-content: center;
-    align-items: center;
-    margin-top:50px;
-    margin-bottom:50px;
+#text1,#text2,#text3{
+    display: none;
 }
 
 .contactus{
-    text-align:center;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.header{
+    background-image: url(../IMAGES/backgrounds/c_image.jpg);
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#name, #email, #message{
+    background: transparent;
+    text-align: center;   
+    margin-top: 70px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 100px;
-    font-size: 35px;
-}
-
-
-.header ::placeholder{
-    color:white;
-}
-
-#message{
-line-height: 300px;
-background-color: initial;
-color:white;
-}
-
-#name{
-    margin-top: 2%;
-    margin-left:180px;
-    padding-bottom: 10px;
-    margin-bottom:30px ;
-    background-color: initial;
-    color:white;  
-}
-
-#email{
-    padding-bottom: 10px;
-    background-color: initial;
-    color:white;
 }
 
 .socialmedia{
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .delanistudio{
-    text-align:center;
-    font-size: 5%;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#submit{
-    margin: 50px;
-    margin-right: 100px;
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.col-md-3:hover{
+    opacity: 0.3;
 }
 
-
-
-#text1, #text2, #text3{
-display: none;
+.imagetop{
+    margin-top: 20px;
 }
 
+#form{
+    padding-left: 130px;
+}
+
+#message{
+    line-height: 250px;
+}
