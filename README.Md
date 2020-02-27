@@ -24,4 +24,4 @@ email:mwanugerald@gmail.com
 
 
 ## LICENSE
-[LICENCE](./LICENSE)
+[LICENSE](./LICENSE)
