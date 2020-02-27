@@ -15,3 +15,11 @@ $(document).ready(function(){
 
    
 }); 
+
+
+$(document).ready(function(){
+document.getElementById("form").addEventListener("submit", popmess);
+function popmess(){
+    alert("We have received your message. Thank you")
+};
+});
