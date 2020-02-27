@@ -23,3 +23,5 @@ email:mwanugerald@gmail.com
       jisnderi@gmail.com
 
 
+## LICENSE
+[LICENCE](./LICENSE)
