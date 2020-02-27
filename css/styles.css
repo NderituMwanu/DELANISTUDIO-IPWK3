@@ -8,6 +8,7 @@ h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     padding-right:0x;
+    padding-top: 50px;
     
 }
 h1{
@@ -58,6 +59,7 @@ h4{
     margin: 70px auto;
     display: flex;
     flex-wrap: wrap;
+    p
 
 }
 
@@ -73,7 +75,8 @@ h4{
 
 .container-fluid{
     text-align: center;
-    line-height: 30px;;
+    line-height: 30px;
+    align-items: center;
 }
 
 .services{
@@ -112,28 +115,6 @@ p{
     background-repeat:no-repeat;
     background-position: center center;
 }
-
-
-/*.whatWeDo {
-    text-align: center;
-    margin-top: 6%;
-    margin-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#blah h4{
-    padding-bottom: 60px;
-}
-#design-p{
-    display: none;
-}
-#dev-p{
-    display: none;
-}
-#product-p{
-    display: none;
-}*/
-
 
 #logo1{
     padding-top: 200px;
